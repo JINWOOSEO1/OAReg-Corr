@@ -218,5 +218,22 @@ Please give a citation of our work if you find it useful:
 Our work is inspired by several outstanding prior works, including [DPF](https://github.com/sergeyprokudin/dpf), [NSFP](https://github.com/Lilac-Lee/Neural_Scene_Flow_Prior), [NDP](https://github.com/rabbityl/DeformationPyramid), and others. We would like to acknowledge and express our deep appreciation to the authors of these remarkable contributions.
 
 
-## License
-OAReg is under AGPL-3.0, so any downstream solution and products (including cloud services) that include OAReg code inside it should be open-sourced to comply with the AGPL conditions. For learning purposes only and not for commercial use. If you want to use it for commercial purposes, please contact us first.
+## License & Attribution
+This repository is a **modified version of OAReg**.
+
+- **Original Paper:** *Occlusion-Aware Non-Rigid Point Cloud Registration via
+  Unsupervised Neural Deformation Correntropy* (ICLR 2025) &mdash; Mingyang
+  Zhao, Gaofeng Meng, Dong-Ming Yan.
+- **Modifications:** Added a correspondence estimation pipeline
+  ([RGBD_image_generator.py](src/RGBD_image_generator.py),
+  [build_segmented_pointclouds.py](src/build_segmented_pointclouds.py),
+  [find_correspondence.py](src/find_correspondence.py),
+  [visualize_ply.py](src/visualize_ply.py),
+  [run_pipeline.sh](src/run_pipeline.sh)) and support for sparse
+  user-picked correspondence inputs in [test_OAR.py](src/test_OAR.py), for
+  academic / learning purposes.
+- **License:** Distributed under the **AGPL-3.0 License** in accordance with
+  the original repository's terms. Any downstream solution or product
+  (including cloud services) that includes OAReg code must be open-sourced to
+  comply with AGPL. For learning purposes only and not for commercial use; if
+  you want to use it commercially, please contact the original authors first.
