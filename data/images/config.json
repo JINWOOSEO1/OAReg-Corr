@@ -1,0 +1,55 @@
+{
+  "camera_params": "data/images/camera_params.npz",
+  "source": {
+    "rgb": [
+      "data/images/source_cam1.jpg",
+      "data/images/source_cam2.jpg",
+      "data/images/source_cam3.jpg"
+    ],
+    "depth": [
+      "data/images/source_cam1.npy",
+      "data/images/source_cam2.npy",
+      "data/images/source_cam3.npy"
+    ],
+    "kpts": [
+      [
+        477.0,
+        95.0
+      ],
+      [
+        471.0,
+        159.0
+      ],
+      [
+        461.0,
+        210.0
+      ]
+    ]
+  },
+  "target": {
+    "rgb": [
+      "data/images/target_cam1.jpg",
+      "data/images/target_cam2.jpg",
+      "data/images/target_cam3.jpg"
+    ],
+    "depth": [
+      "data/images/target_cam1.npy",
+      "data/images/target_cam2.npy",
+      "data/images/target_cam3.npy"
+    ],
+    "kpts": [
+      [
+        477.0,
+        92.0
+      ],
+      [
+        470.0,
+        158.0
+      ],
+      [
+        461.0,
+        215.0
+      ]
+    ]
+  }
+}

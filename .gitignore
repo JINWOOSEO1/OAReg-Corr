@@ -1,0 +1,14 @@
+# Data files
+*.npy
+*.jpg
+*.npz
+*.ply
+
+# Claude
+.claude/
+
+#.vscode
+.vscode/
+
+# Results
+results/
